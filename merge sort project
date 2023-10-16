@@ -1,0 +1,13 @@
+[16,21,11,8,12,22] 
+1) sort türüne göre sırlama?
+yarıya böl [16,21,11]   [8,12,22]
+yarıya böl [16] [21,11]   [8] [12,22]
+yarıya böl [16] [21] [11]   [8] [12] [22] 
+karşılaştır küçükleri sola yaz [16] [11,21]   [8] [12,22]
+tek tek karşılaştır küçükleri sola yaz [11,16,21]   [8,12,22]
+tek tek karşılaştır küçükleri sola yaz. [8,11,12,16,21,22] 
+sıralanmış hali [8,11,12,16,21,22] olur.
+
+big-O bulunuz?
+2*x=n ise x=logn ve n kez tekararladığımız için 
+o(nlogn).
