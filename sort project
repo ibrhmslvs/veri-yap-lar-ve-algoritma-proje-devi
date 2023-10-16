@@ -1,0 +1,28 @@
+[22,27,16,2,18,6] 
+1) sort sıralaması?
+22 27 karşılaştırılır 22 küçük başta kalır. [22,27|,16,2,18,6] 
+22 27 ve 16 karşılaştırılır. 16 en küçük. başa gelir. [16,22,27|,2,18,6] 
+16 22 27 ve 2 karşılaştırılır. 2 en küçük. başar gelir. [2,16,22,27|,18,6] 
+2 16 22 27 ve 18 karşılaştırılır. 18,16 dan büyük ve 22 den küçük. ikisinin ortasına gelir.  [2,16,18,22,27|,6]  
+2 16 22 27 18 ve 6 karşılaştırılır. 6, 2 den büyük 16 dan küçük. ikisinin ortasına gelir.  [2,6,16,18,22,27] 
+sort a göre sıralanmış şekli [2,6,16,18,22,27] olur.
+
+2) big-O gösterimi?
+n
+n-1
+n-2
+.
+.
+.
+1
+n + n-1 + .... + 1=n.(n+1)/2 
+O(n*2) olur.
+
+3) 18 worst case, avarage case, best case 3 ünden hangisi olur?
+18 ortada ondan dolayı avarage case tır.
+
+[7,3,5,8,2,9,4,15,6] selection sort a göre sıralanmasında ilk 4 adımı göster?      
+min=2 2 ile 7 yer değişir.  [2,3,5,8,7,9,4,15,6]
+min=3 yer değiştirmesine gerek yok.  [2,3,5,8,7,9,4,15,6]
+min=4 4 ile 5 yer değişir. [2,3,4,8,7,9,5,15,6]
+min=5 5  ile 8 yer değişir. [2,3,4,5,7,9,8,15,6]
